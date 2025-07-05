@@ -5,7 +5,7 @@
     <Nullable>enable</Nullable>
     <ImplicitUsings>enable</ImplicitUsings>
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
-    <PackageId>Grpc.ExceptionShield</PackageId>
+    <PackageId>Moongazing.Grpc.ExceptionShield</PackageId>
     <Version>1.0.0</Version>
     <Authors>Tunahan Ali Ozturk</Authors>
     <Company>Moongazing</Company>

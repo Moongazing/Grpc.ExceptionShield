@@ -1,0 +1,32 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net9.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <PackageId>Grpc.ExceptionShield</PackageId>
+    <Version>1.0.0</Version>
+    <Authors>Tunahan Ali Ozturk</Authors>
+    <Company>Moongazing</Company>
+    <Description>Interceptor-based global exception handler for gRPC services with extensible mapping and logging.</Description>
+    <PackageTags>grpc exception handler interceptor middleware logging</PackageTags>
+    <RepositoryUrl>https://github.com/Moongazing/Grpc.ExceptionShield</RepositoryUrl>
+    <PackageLicenseFile>docs/LICENSE.txt</PackageLicenseFile>
+    <PackageReadmeFile>docs/README.md</PackageReadmeFile>
+    <PackageIcon>docs/logo.png</PackageIcon>
+
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Grpc.AspNetCore" Version="2.64.0" />
+    <PackageReference Include="Microsoft.Extensions.Logging.Abstractions" Version="9.0.0" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="docs\README.md" Pack="true" PackagePath="docs/" />
+    <None Include="docs\LICENSE.txt" Pack="true" PackagePath="docs/" />
+    <None Include="docs\logo.png" Pack="true" PackagePath="docs/" />
+
+  </ItemGroup>
+
+</Project>
